@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Kembar Fried Chicken</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/TFC.png" alt="Kembar Fried Chicken">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Beranda</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> Tentang Kami</a></li>
+                    <li><a href="#features"><i class="fas fa-star"></i> Fitur</a></li>
+                    <li><a href="#products"><i class="fas fa-drumstick-bite"></i> Produk</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animated-text">Selamat Datang di Toko Kembar Fried Chicken</h1>
+                <p>Nikmati kelezatan ayam geprek kami langsung di rumah Anda!</p>
+                <a href="#products" class="cta-button pulse">Pesan Sekarang</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/Banner.JPG.jpg" alt="Kembar Fried Chicken">
+            </div>
+        </section>
+
+        <section id="about" class="reveal">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah toko ayam geprek online terbaik yang menyajikan ayam geprek lezat dengan berbagai level kepedasan. Dengan bahan-bahan berkualitas dan resep rahasia, kami berkomitmen untuk memberikan pengalaman kuliner terbaik bagi pelanggan kami.</p>
+        </section>
+
+        <section id="features" class="reveal">
+            <h2>Fitur Unggulan</h2>
+            <div class="features-container">
+                <div class="feature-item">
+                    <i class="fas fa-truck"></i>
+                    <h3>Pengiriman Cepat</h3>
+                    <p>Nikmati pengiriman cepat ke lokasi Anda</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-pepper-hot"></i>
+                    <h3>Pilihan Level Pedas</h3>
+                    <p>Sesuaikan tingkat kepedasan sesuai selera Anda</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Bahan Berkualitas</h3>
+                    <p>Kami hanya menggunakan bahan-bahan terbaik</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tag"></i>
+                    <h3>Promo Menarik</h3>
+                    <p>Dapatkan penawaran spesial setiap minggunya</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="reveal">
+            <h2>Produk Kami</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="img/AyamGeprek02.png" alt="Ayam Geprek Original">
+                    </div>
+                    <h3>Ayam Geprek Original</h3>
+                    <p class="price">Rp 15.000</p>
+                    <button class="add-to-cart">Tambah ke Keranjang</button>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="img/GeprekKeju.png" alt="Ayam Geprek Keju">
+                    </div>
+                    <h3>Ayam Geprek Keju</h3>
+                    <p class="price">Rp 15.000</p>
+                    <button class="add-to-cart">Tambah ke Keranjang</button>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="img/ayam.jpg" alt="Ayam Geprek Sambal Matah">
+                    </div>
+                    <h3>Ayam Geprek Sambal Matah</h3>
+                    <p class="price">Rp 15.000</p>
+                    <button class="add-to-cart">Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="reveal">
+            <h2>Apa Kata Pelanggan Kami</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-item">
+                    <p>"Ayam gepreknya lezat dan pedasnya pas! Pengiriman juga cepat dan selalu hangat saat sampai."</p>
+                    <div class="testimonial-author">- Budi S.</div>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Saya suka bisa memilih level kepedasan. Pelayanannya ramah dan cepat. Recommended!"</p>
+                    <div class="testimonial-author">- Siti R.</div>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Promonya menarik dan sering ada menu baru. Jadi langganan tetap nih!"</p>
+                    <div class="testimonial-author">- Andi P.</div>
+                </div>
+            </div>
+        </section>
+
+<section id="contact" class="reveal">
+            <h2>Hubungi Kami</h2>
+            <form action="send_message.php" method="POST">
+    <input type="text" name="name" placeholder="Nama" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Pesan" required></textarea>
+    <button type="submit">Kirim</button>
+</form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toko Kembar Fried Chicken. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+        var reveals = document.querySelectorAll('.reveal');
+        
+        for(var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var revealTop = reveals[i].getBoundingClientRect().top;
+            var revealPoint = 150;
+            
+            if(revealTop < windowHeight - revealPoint) {
+                reveals[i].classList.add('active');
+            }
+        }
+    }
+    </script>
+</body>
+</html>
