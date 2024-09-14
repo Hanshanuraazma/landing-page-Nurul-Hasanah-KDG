@@ -79,7 +79,7 @@ nav ul li a:hover {
     padding: 0 2%;
     position: relative;
     overflow: hidden;
-    min-height: 80vh;
+    min-height: 70vh;
     width: 100%;
 
 }
@@ -108,7 +108,7 @@ nav ul li a:hover {
     z-index: 2;
 }
 
-.hero-image img {
+.hero-image {
     max-width: 100%;
     animation: float 3s ease-in-out infinite;
 }
